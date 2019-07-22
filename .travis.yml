@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '10'
+
+branches:
+  only:
+  - master
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: 893ca857bb23
+  - COMMIT_AUTHOR_EMAIL: chubalh@live.com
