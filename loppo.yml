@@ -1,0 +1,8 @@
+dir: docs
+output: dist
+site: ' test '
+theme: wangdoc
+customization: false
+themeDir: loppo-theme
+direction: ltr
+id: test
